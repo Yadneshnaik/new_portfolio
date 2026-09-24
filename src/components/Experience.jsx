@@ -30,7 +30,7 @@ function Experience() {
               <h3>Graphic Designer</h3>
 
               <h5 className="text-primary mb-3">
-                Mental Graphiks
+                mental grafikx
               </h5>
 
               <p>
