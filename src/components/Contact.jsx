@@ -34,7 +34,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/contact",
+        "https://new-portfolio-backend-pqen.onrender.com/api/contact",
         {
           method: "POST",
 
