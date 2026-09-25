@@ -67,7 +67,7 @@ function Education() {
 
                 {item.current && (
                   <span className="current-badge">
-                    Currently Pursuing
+                    June 2026 - Currently Pursuing
                   </span>
                 )}
 

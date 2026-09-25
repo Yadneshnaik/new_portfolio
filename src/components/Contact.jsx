@@ -63,7 +63,10 @@ function Contact() {
       } else {
         setStatus({
           type: "error",
-          message: data.message || "Something went wrong.",
+          message:
+            data.error ||
+            data.message ||
+            "Something went wrong.",
         });
       }
 
@@ -188,11 +191,10 @@ function Contact() {
 
               {status.message && (
                 <div
-                  className={`alert ${
-                    status.type === "success"
+                  className={`alert ${status.type === "success"
                       ? "alert-success"
                       : "alert-danger"
-                  }`}
+                    }`}
                 >
                   {status.message}
                 </div>
